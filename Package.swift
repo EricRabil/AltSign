@@ -20,6 +20,10 @@ let package = Package(
             name: "AltSign-Static",
             targets: ["AltSign", "CAltSign", "CoreCrypto", "CCoreCrypto", "ldid", "ldid-core"]
         ),
+        .library(
+            name: "OpenSSL",
+            targets: ["OpenSSL"]
+        )
     ],
     dependencies: [],
     targets: [

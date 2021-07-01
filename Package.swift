@@ -23,6 +23,14 @@ let package = Package(
         .library(
             name: "OpenSSL",
             targets: ["OpenSSL"]
+        ),
+        .library(
+            name: "CCoreCrypto",
+            targets: ["CCoreCrypto"]
+        ),
+        .library(
+            name: "CoreCrypto",
+            targets: ["CoreCrypto"]
         )
     ],
     dependencies: [],
